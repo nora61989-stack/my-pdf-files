@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS - تصميم المواقع</title>
+</head>
+
+<body>
+
+    <h1>CSS: كيف نغيّر الألوان والخطوط وتصميم المواقع</h1>
+
+    <p>الاسم بالكامل: نورا السيد سالم محمد عبدالعال</p>
+     <p>الرقم الجامعي: 2502731</p>
+<p>رقم السكشن: 166</p>
+        <p>المادة: تطبيقات الإنترنت والمنصات الإلكترونية</p>
+
+    <hr>
+
+    <h2>مقدمة</h2>
+
+    <p>
+        عندما نفتح أي موقع إلكتروني فإن أول ما يلفت انتباهنا هو شكله:
+        ألوانه وخطوطه وترتيب عناصره على الشاشة.
+        لغة HTML مسؤولة عن هيكل المحتوى، أما CSS فهي المسؤولة
+        عن المظهر والتصميم.
+    </p>
+
+    <h2>1- أساسيات CSS وطرق ربطه بالصفحة</h2>
+
+    <p>
+        تتكون قاعدة CSS من محدد (Selector) يحدد العنصر المستهدف،
+        وخصائص (Properties) وقيمها.
+    </p>
+
+    <pre>
+h1 {
+    color: navy;
+    font-size: 32px;
+}
+    </pre>
+
+    <p>هناك ثلاث طرق لإضافة CSS إلى صفحة HTML:</p>
+
+    <table border="1">
+        <tr>
+            <th>الطريقة</th>
+            <th>مكان الكتابة</th>
+            <th>الاستخدام</th>
+        </tr>
+        <tr>
+            <td>Inline</td>
+            <td>داخل العنصر نفسه</td>
+            <td>تعديل عنصر واحد</td>
+        </tr>
+        <tr>
+            <td>Internal</td>
+            <td>داخل وسم Style</td>
+            <td>صفحة واحدة</td>
+        </tr>
+        <tr>
+            <td>External</td>
+            <td>ملف منفصل style.css</td>
+            <td>جميع صفحات الموقع</td>
+        </tr>
+    </table>
+
+    <h2>2- كيف نغيّر الألوان</h2>
+
+    <p>
+        تستخدم CSS خاصية color للتحكم في لون النص،
+        وخاصية background-color للتحكم في لون الخلفية،
+        كما يمكن استخدام border-color للحدود.
+    </p>
+
+    <ul>
+        <li>اسم اللون مثل red وtomato.</li>
+        <li>HEX مثل #1a4d8f.</li>
+        <li>RGB وRGBA.</li>
+        <li>HSL.</li>
+    </ul>
+
+    <h2>3- كيف نغيّر الخطوط</h2>
+
+    <p>تتحكم CSS في شكل النص من خلال مجموعة من الخصائص:</p>
+
+    <ul>
+        <li>font-family: نوع الخط.</li>
+        <li>font-size: حجم الخط.</li>
+        <li>font-weight: سمك الخط.</li>
+        <li>font-style: شكل الخط.</li>
+        <li>line-height: المسافة بين الأسطر.</li>
+        <li>text-align: محاذاة النص.</li>
+    </ul>
+
+    <h2>4- كيف نغيّر تصميم الموقع (Layout)</h2>
+
+    <p>يوجد أكثر من أسلوب للتحكم في تصميم الصفحة:</p>
+
+    <ul>
+        <li>Box Model: نموذج الصندوق.</li>
+        <li>Flexbox: ترتيب العناصر في صف أو عمود.</li>
+        <li>CSS Grid: تقسيم الصفحة إلى صفوف وأعمدة.</li>
+        <li>Responsive Design: التصميم المتجاوب مع الشاشات.</li>
+    </ul>
+
+    <h2>5- الصور التوضيحية</h2>
+
+    <p>صورة توضح استخدام الكمبيوتر في تصميم المواقع:</p>
+
+    <img
+        src="https://images.unsplash.com/photo-1498050108023-c5249f4df085"
+        alt="Computer and web development"
+        width="400"
+    >
+
+    <p>صورة أخرى توضح العمل على التكنولوجيا:</p>
+
+    <img
+        src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3"
+        alt="Technology and computer"
+        width="400"
+    >
+
+    <h2>الخاتمة</h2>
+
+    <p>
+        تعد CSS الأداة الأساسية التي تحول صفحة HTML البسيطة
+        إلى موقع جذاب ومنظم. فبتغيير الألوان نعبّر عن هوية الموقع،
+        وبتغيير الخطوط نحسن القراءة والانطباع،
+        وباستخدام Flexbox وGrid وMedia Queries
+        نضمن ظهور الموقع بشكل مرتب على جميع الأجهزة.
+    </p>
+
+    <h2>المراجع والمصادر</h2>
+
+    <ol>
+        <li>MDN Web Docs - CSS: Cascading Style Sheets.</li>
+        <li>MDN Web Docs - CSS Custom Properties.</li>
+        <li>W3Schools - CSS Tutorial.</li>
+        <li>CSS-Tricks - Flexbox and CSS Grid.</li>
+        <li>Google Fonts.</li>
+        <li>W3C - Cascading Style Sheets.</li>
+    </ol>
+
+</body>
+</html>
